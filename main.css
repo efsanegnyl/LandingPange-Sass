@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;700&family=Merriweather:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#F5ECEC), color-stop(#FDBAFF), to(#606DFE));
+  background-image: linear-gradient(90deg, #F5ECEC, #FDBAFF, #606DFE);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body body:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  bottom: -20px;
+  right: -20px;
+  background-color: #0a1053;
+}
+
+body .container {
+  position: relative;
+  margin-top: 50px;
+  width: 85%;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+body .container .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100px;
+  padding: 0 55px;
+}
+
+body .container .banner nav ul li {
+  display: inline-block;
+  padding: 10px 0px;
+  color: #2B2862;
+}
+
+body .container .banner nav ul li a {
+  padding-left: 10px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  color: #2B2862;
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+body .container .banner nav ul li a:hover {
+  background-color: #2B2862;
+  color: white;
+  border-radius: 5px;
+}
+
+body .container .banner nav ul li .btn {
+  background-color: #2B2862;
+  color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 9px 28px -10px rgba(1, 9, 104, 0.37582);
+          box-shadow: 0px 9px 28px -10px rgba(1, 9, 104, 0.37582);
+}
+
+body .container main {
+  margin: 100px 120px;
+}
+
+body .container main .article {
+  margin-right: 250px;
+  color: #2B2862;
+}
+
+body .container main .article h1 {
+  font-family: "Merriweather", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+body .container main .article p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 20px 100px 120px 0;
+}
+
+body .container main .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container main .cards .card {
+  width: 335px;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+body .container main .cards .card:last-child {
+  margin-right: 0;
+}
+
+body .container main .cards .card h5 {
+  font-weight: "Merriweather", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: #2B2862;
+}
+
+body .container main .cards .card a {
+  color: #606DFE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+body .container main .cards .card .dropdowmn {
+  text-transform: uppercase;
+}
+
+body .container main .cards .card .dropdowmn:after {
+  content: '';
+  border: 3px solid;
+  border-color: transparent #606DFE #606DFE transparent;
+  width: 10px;
+  height: 10px;
+  margin: 0 0 0 15px;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+body .container main .cards .card .cardtext {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  line-height: 25px;
+  color: #2B2862;
+  margin-top: 20px;
+}
+
+body .container main .cards .card .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 146px;
+  height: 42px;
+  border: 1px solid #D4D7FF;
+  border-radius: 20px;
+  -webkit-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+}
+
+body .container main .cards .card .btn:hover {
+  background-color: #D4D7FF;
+  border: 2px solid #D4D7FF;
+}
+/*# sourceMappingURL=main.css.map */
