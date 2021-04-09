@@ -75,6 +75,8 @@ body .container .banner nav ul li a {
   font-size: 18px;
   padding: 10px 20px;
   cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 body .container .banner nav ul li a:hover {
@@ -84,11 +86,17 @@ body .container .banner nav ul li a:hover {
 }
 
 body .container .banner nav ul li .btn {
-  background-color: #2B2862;
   color: white;
   border-radius: 5px;
+  font-size: 19px;
   -webkit-box-shadow: 0px 9px 28px -10px rgba(1, 9, 104, 0.37582);
           box-shadow: 0px 9px 28px -10px rgba(1, 9, 104, 0.37582);
+}
+
+body .container .banner nav ul li .btn:hover {
+  background-color: #2B2862;
+  color: #fff;
+  border-radius: 5px;
 }
 
 body .container main {
